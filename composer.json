@@ -1,0 +1,22 @@
+{
+    "name": "ucscode/promise",
+    "description": "A lightweight and concise implementation of Promises in PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Uchenna Ajah",
+            "email": "uche23mail@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ucscode\\Promise\\": "src/"
+        }
+    },
+    "minimum-stability": "RC",
+    "prefer-stable": true
+}
